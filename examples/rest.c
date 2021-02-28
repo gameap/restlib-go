@@ -11,7 +11,7 @@ int main() {
         .Method     = POST,
         .URL        = "https://ptsv2.com/t/1x32a-1608675136/post",
         .Body       = "body",
-        .Header     = "Accept: application/json",
+        .Header     = "Accept: application/json\nAuthorization: Bearer token",
         .UserAgent  = "rest-c",
         .RetryCount = 3
     };
